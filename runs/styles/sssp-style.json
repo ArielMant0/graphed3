@@ -1,0 +1,19 @@
+{
+    "nodeStyles": {
+        "source": {
+            "fillColor": "green",
+            "sizex": 20
+        }
+    },
+    "edgeStyles": {
+        "relax": {
+            "fillColor": "black",
+            "size": 5,
+            "opacity": 1
+        },
+        "other": {
+            "fillColor": "red",
+            "size": 10
+        }
+    }
+}

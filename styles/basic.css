@@ -1,0 +1,191 @@
+/* Main Page Stuff */
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+
+aside {
+    float: left;
+}
+
+section {
+    float: right;
+    width: 85%;
+    height: 90vh;
+}
+
+/* Navigation and Lists */
+
+nav ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #cecece;
+    background-color: #f3f3f3;
+    margin-bottom: 1em;
+}
+
+nav li {
+    float: left;
+}
+
+nav li p {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+nav li p:hover:not(.active) {
+    background-color: #ddd;
+}
+
+nav li p.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 2mm;
+}
+
+aside li {
+    display: inline;
+}
+
+aside input[type="checkbox"] {
+    margin-right: 0.3em;
+}
+
+#step-container {
+    margin: .1em;
+    padding: .3em;
+}
+
+#step-container input,
+#step-container label {
+    margin: 0;
+    margin-right: .4em;
+}
+
+/* SVGs and Container*/
+
+.control-container {
+    display: flex;
+}
+
+.control-button {
+    padding: .3em;
+    background-color: #fff;
+    border: 2px solid #cecece;
+    border-radius: .5em;
+    margin: .1em;
+}
+
+.control-button:hover {
+    background-color: #a9cdd8;
+    border-color: #5daac1;
+}
+
+.control-button.reverse {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.svg-container {
+    padding: .2em;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 99%;
+    border: 2px dotted #cecece;
+    border-radius: .5em;
+}
+
+.svg-container svg {
+    width: 100%;
+    height: 100%;
+}
+
+.contain-one,
+.contain-four {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 0.5em;
+}
+
+.contain-two {
+    display: flex;
+    height: 100%;
+    margin-right: 0.5em;
+}
+
+.progress {
+    position: relative;
+    width: 80%;
+    margin: 0;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+    text-shadow:  1px  1px 1px white,
+                  1px -1px 1px white,
+                 -1px  1px 1px white,
+                 -1px -1px 1px white;
+}
+
+.slider-container {
+    margin-right: .5em;
+    flex-grow: 1;
+    display: flex;
+}
+
+.speed-slider[type='range'] {
+    flex-grow: 1;
+    margin-top: .5em;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 3px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.speed-slider:hover {
+    opacity: 1;
+}
+
+.speed-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    cursor: pointer;
+    background: darkred;
+}
+
+.speed-slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: darkred;
+    cursor: pointer; /* Cursor on hover */
+}
+
+label {
+    margin-right: .5em;
+}

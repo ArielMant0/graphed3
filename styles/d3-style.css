@@ -1,0 +1,42 @@
+.circular.default-node {
+  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #999;
+}
+
+.circular.default-node:hover {
+  fill: #000;
+}
+
+.circular.default-link {
+  stroke: steelblue;
+  stroke-opacity: 0.3;
+  fill: none;
+  pointer-events: none;
+}
+
+.circular.default-node:hover,
+.circular.node--source,
+.circular.node--target {
+  font-weight: 700;
+}
+
+.circular.link--source,
+.circular.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  stroke: forestgreen;
+}
+
+.circular.link--source {
+  stroke: #d62728;
+}
+
+.force.default-link {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.force.default-node {
+  stroke: #6ea3b7;
+  stroke-width: 1.5px;
+}

@@ -1,0 +1,9 @@
+h3 Run List
+ul(id="run-list")
+    each item in runs
+        div
+            - let i = 0;
+            while i < count
+                input(type="checkbox", class="run-checkbox", id=item.file+"-"+i)
+                - i++;
+            li #{item.name}

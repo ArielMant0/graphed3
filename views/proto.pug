@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset="utf-8")
+
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel="stylesheet", type="text/css", href="/public/basic.css")
+        link(rel="stylesheet", type="text/css", href="/public/d3-style.css")
+
+        style(id="view-style-0")
+        style(id="view-style-1")
+        style(id="view-style-2")
+        style(id="view-style-3")
+
+        script(src="https://d3js.org/d3.v4.min.js")
+        script(src="https://unpkg.com/d3-3d/build/d3-3d.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+        script(src="https://d3js.org/d3-zoom.v1.min.js")
+
+        script(src="/public/style-handler.js")
+        script(src="/public/layout.js")
+        script(src="/public/command-stack.js")
+        script(src="/public/force.js")
+        script(src="/public/circle.js")
+        script(src="/public/scatter.js")
+        script(src="/public/view.js")
+        script(src="/public/index.js")
+
+    body
+        nav
+            ul(id="nav-list")
+                li: p(id="s-view") Single View
+                li: p(id="d-view") Double View
+                li: p(id="q-view") Quadruple View
+        aside(id='main-aside')
+            block side
+        section(id='main-view')
+            block section

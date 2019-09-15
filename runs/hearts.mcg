@@ -1,0 +1,96 @@
+{
+    "meta": {
+        "title": "Hearts",
+        "author": "Rene",
+        "description": "Stuff.",
+        "style": "hearts-style",
+        "particles": true
+    },
+    "graph": {
+        "nodes": [
+            { "id": 0,  "label": "A", "value": 1 },
+            { "id": 1,  "label": "B", "value": 0 },
+            { "id": 2,  "label": "C", "value": 15 },
+            { "id": 3,  "label": "D", "value": 5 },
+            { "id": 4,  "label": "E", "value": 2 },
+            { "id": 5,  "label": "F", "value": 28 },
+            { "id": 6,  "label": "G", "value": 14 },
+            { "id": 7,  "label": "H", "value": 5 },
+            { "id": 8,  "label": "I", "value": 20 },
+            { "id": 9,  "label": "J", "value": 25 },
+            { "id": 10, "label": "K", "value": 7 },
+            { "id": 11, "label": "L", "value": 6 },
+            { "id": 12, "label": "M", "value": 15 },
+            { "id": 13, "label": "N", "value": 5 },
+            { "id": 14, "label": "O", "value": 43 },
+            { "id": 15, "label": "P", "value": 1 },
+            { "id": 16, "label": "Q", "value": 5 },
+            { "id": 17, "label": "R", "value": 9 },
+            { "id": 18, "label": "S", "value": 33 },
+            { "id": 19, "label": "T", "value": 5 },
+            { "id": 20, "label": "U", "value": 5 },
+            { "id": 21, "label": "V", "value": 17 },
+            { "id": 22, "label": "W.232", "value": 5 },
+            { "id": 23, "label": "X", "value": 2 },
+            { "id": 24, "label": "Y", "value": 8 },
+            { "id": 25, "label": "Z", "value": 6 }
+        ],
+        "links": [
+            { "id": 0, "source": 1, "target": 10,   "label": "a", "value": 35, "direction": 1 },
+            { "id": 1, "source": 24, "target": 11,  "label": "b", "value": 36, "direction": 1 },
+            { "id": 3, "source": 22, "target": 13,  "label": "d", "value": 38, "direction": 1 },
+            { "id": 2, "source": 23, "target": 12,  "label": "c", "value": 37, "direction": 1 },
+            { "id": 4, "source": 12, "target": 2,   "label": "e", "value": 39, "direction": 1 },
+            { "id": 5, "source": 20, "target": 15,  "label": "f", "value": 40, "direction": 1 },
+            { "id": 6, "source": 1, "target": 16,   "label": "g", "value": 41, "direction": 1 },
+            { "id": 7, "source": 18, "target": 17,  "label": "h", "value": 42, "direction": 1 },
+            { "id": 8, "source": 17, "target": 18,  "label": "i", "value": 43, "direction": 1 },
+            { "id": 9, "source": 16, "target": 19,  "label": "j", "value": 44, "direction": 1 },
+            { "id": 10, "source": 15, "target": 20, "label": "k", "value": 45, "direction": 1 },
+            { "id": 11, "source": 14, "target": 21, "label": "l", "value": 46, "direction": 1 },
+            { "id": 12, "source": 1, "target": 22,  "label": "m", "value": 47, "direction": 1 },
+            { "id": 13, "source": 12, "target": 23, "label": "n", "value": 48, "direction": 1 },
+            { "id": 14, "source": 11, "target": 24, "label": "o", "value": 49, "direction": 1 },
+            { "id": 15, "source": 10, "target": 25, "label": "p", "value": 50, "direction": 1 },
+            { "id": 16, "source": 12, "target": 0,  "label": "q", "value": 51, "direction": 1 },
+            { "id": 17, "source": 8, "target": 1,   "label": "r", "value": 52, "direction": 1 },
+            { "id": 18, "source": 7, "target": 2,   "label": "s", "value": 53, "direction": 1 },
+            { "id": 19, "source": 12, "target": 3,  "label": "t", "value": 54, "direction": 1 },
+            { "id": 20, "source": 1, "target": 4,   "label": "u", "value": 55, "direction": 1 },
+            { "id": 21, "source": 4, "target": 5,   "label": "v", "value": 56, "direction": 1 },
+            { "id": 22, "source": 3, "target": 6,   "label": "w", "value": 57, "direction": 1 },
+            { "id": 23, "source": 2, "target": 7,   "label": "x", "value": 58, "direction": 1 },
+            { "id": 24, "source": 1, "target": 8,   "label": "y", "value": 59, "direction": 1 },
+            { "id": 25, "source": 0, "target": 9,   "label": "z", "value": 60, "direction": 1 },
+            { "id": 26, "source": 12, "target": 10, "label": "aa", "value": 61, "direction": 1 },
+            { "id": 27, "source": 22, "target": 11, "label": "ab", "value": 62, "direction": 1 },
+            { "id": 28, "source": 5, "target": 12,  "label": "ac", "value": 63, "direction": 1 },
+            { "id": 29, "source": 6, "target": 13,  "label": "ad", "value": 64, "direction": 1 },
+            { "id": 30, "source": 8, "target": 14,  "label": "ae", "value": 65, "direction": 1 },
+            { "id": 31, "source": 12, "target": 15, "label": "af", "value": 66, "direction": 1 },
+            { "id": 32, "source": 18, "target": 16, "label": "ag", "value": 67, "direction": 1 },
+            { "id": 33, "source": 12, "target": 17, "label": "ah", "value": 68, "direction": 1 },
+            { "id": 34, "source": 0, "target": 18,  "label": "ai", "value": 69, "direction": 1 }
+        ]
+    },
+    "frames": [
+        [["nc", [5, "selected"]]],
+        [["nc", [5, "finished"]]],
+        [
+            ["nc", [12, "selected"]],
+            ["nc", [25, "selected"]],
+            ["ec", [18, "selected"]],
+            ["ec", [23, "selected"]],
+            ["nc", [3, "selected"]]
+        ],
+        [
+            ["nc", [12, "finished"]],
+            ["nc", [25, "finished"]],
+            ["nc", [3, "finished"]]
+        ],
+        [
+            ["nc", [5, ""]],
+            ["N", [7]]
+        ]
+    ]
+}

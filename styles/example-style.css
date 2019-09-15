@@ -1,0 +1,29 @@
+.force[data-node="selected"] {
+    fill: #7c1739;
+}
+
+.force[data-node="finished"] {
+    fill: #666;
+}
+
+.circular[data-node="selected"] {
+    font-size: 16px;
+    fill: #7c1739;
+    font-weight: 700;
+}
+
+.circular[data-node="finished"] {
+    font-size: 16px;
+    fill: #000;
+}
+
+.circular[data-link="selected"] {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+    stroke: #7c1739;
+}
+
+.circular[data-link="finished"] {
+    stroke-opacity: 0.3;
+    stroke: #666;
+}

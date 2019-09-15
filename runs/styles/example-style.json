@@ -1,0 +1,30 @@
+{
+    "nodeStyles": {
+        "default": {
+            "shape": "ellipse",
+            "sizex": 15,
+            "sizey": 10,
+            "borderColor": "#000",
+            "fillColor": "#666",
+            "opacity": 0.5
+        },
+        "selected": {
+            "shape": "rect",
+            "sizex": 20,
+            "sizey": 20,
+            "fillColor": "#fff",
+            "borderColor": "#000"
+        },
+        "finished": {
+            "fillColor": "purple"
+        }
+    },
+    "edgeStyles": {
+        "default": {
+            "fillColor": "darkred"
+        },
+        "selected": {
+            "fillColor": "steelblue"
+        }
+    }
+}

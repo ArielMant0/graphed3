@@ -1,0 +1,17 @@
+{
+    "nodeStyles": {
+        "curNode": {
+            "sizex": 15,
+            "sizey": 15,
+            "fillColor": "yellowgreen",
+            "borderColor": "#000"
+        }
+    },
+    "edgeStyles": {
+        "curEdge": {
+            "fillColor": "yellowgreen",
+            "size": 5,
+            "opacity": 1
+        }
+    }
+}

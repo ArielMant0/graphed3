@@ -1,0 +1,8 @@
+# Specific Files
+LICENSE
+
+# Files
+*.pdf
+
+# Folders
+**/node_modules

@@ -1,0 +1,20 @@
+{
+    "nodeStyles": {
+        "selected": {
+            "sizex": 20,
+            "fillColor": "yellowgreen",
+            "borderColor": "#888"
+        },
+        "finished": {
+            "sizex": 20,
+            "fillColor": "#222",
+            "borderColor": "#888"
+        }
+    },
+    "edgeStyles": {
+        "selected": {
+            "size": 20,
+            "fillColor": "yellowgreen"
+        }
+    }
+}

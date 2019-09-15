@@ -1,0 +1,55 @@
+- let i = 0;
+- let divClass = "contain-one";
+if count === 2
+    - divClass = "contain-two";
+else if count === 4
+    - divClass = "contain-four";
+
+mixin view(index)
+    div(class="svg-container", id='view-'+index)
+        div(class='control-container')
+            div(style='display: inline; margin-right: .5em;')
+                label(for='layout-select-'+index) Select Layout: 
+                select(id='layout-select-'+index)
+                    option(value='force', selected) Force
+                    option(value='circle') Circular
+                    option(value='scatter') Scatter
+            div(class='slider-container')
+                label(for='play-speed-'+index) BPM: 
+                input(id='play-speed-'+index, type='range', min=100, max=1200, class='speed-slider')
+        svg(id="svg-"+index)
+        div(class='control-container')
+            button(class="control-button", id='reset-all-'+index)
+                span(class="glyphicon glyphicon-refresh")
+            button(class="control-button", id='prev-frame-'+index)
+                span(class="glyphicon glyphicon-fast-backward")
+            button(class="control-button", id='prev-step-'+index)
+                span(class="glyphicon glyphicon-step-backward")
+            button(class="control-button reverse", id='play-reverse-'+index)
+                span(class="glyphicon glyphicon-play")
+            button(class="control-button", id='play-'+index)
+                span(class="glyphicon glyphicon-play")
+            button(class="control-button", id='next-step-'+index)
+                span(class="glyphicon glyphicon-step-forward")
+            button(class="control-button", id='next-frame-'+index)
+                span(class="glyphicon glyphicon-fast-forward")
+            div(id="step-container")
+                input(type='checkbox', id='play-steps-'+index)
+                label(for='play-steps-'+index) steps
+            div(class="progress")
+                div(id='progress-'+index, class="progress-bar active progress-bar-striped", role="progressbar")
+                    span 0 / 0
+
+div(class=divClass)
+    if count === 4
+        div(class="contain-two")
+            +view(0)
+            +view(1)
+        div(class="contain-two")
+            +view(2)
+            +view(3)
+    else
+        - let i = 0;
+        while i < count
+            +view(i)
+            - i++;
